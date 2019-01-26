@@ -1,4 +1,4 @@
-font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu';
 
 html { 
   font-size: 62.5%; } 
@@ -6,9 +6,8 @@ body {
 font-size: 1.5em;
 line-height: 1.6;
 font-weight: 400;
-font-family: 'lux', sans-serif;
-color: #383838;
-background-color: #7b9d6f;
+font-family: 'Ubuntu';
+color: #000;
 overflow-y: scroll;
 }
 
@@ -49,20 +48,10 @@ font-family: oswald;
 position: relative;
 height: 100vh;
 width: 100%;
-background: #202020;
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfdf', endColorstr='#dfdfdf',GradientType=1 );
+background: #f8f8f8;
 overflow: hidden;
 z-index: 1;
 }
-
-
-
-
-
-
-
-
-
 
 .welcome {
 font-size: 60px;
@@ -71,12 +60,7 @@ color: #dfdfdf;
 }
 
 
-
-
-
-
-
-/********************************************************************************************************************************
+/*******************************************************************************************************************************
                                             Hexagon Intro Blocks
 ********************************************************************************************************************************/
 .intro-block {
@@ -188,70 +172,6 @@ opacity: .2;
 z-index: -1;
 }
 
-.backend-desc.desc-active::after {
-background: url(https://i.imgur.com/Dc8HgeM.png);
-background-repeat: no-repeat;
-background-size: contain;
-background-position: right center;
-}
-
-.frontend-desc.desc-active::after {
-background: url(https://i.imgur.com/QcfXSkf.jpg);
-background-repeat: no-repeat;
-background-size: contain;
-background-position: right center;
-}
-
-.html-desc.desc-active::after {
-background: url(https://i.imgur.com/0g3HZSF.jpg);
-background-repeat: no-repeat;
-background-size: contain;
-background-position: right center;
-}
-
-.css-desc.desc-active::after {
-background: url(https://i.imgur.com/poC0TYE.png);
-background-repeat: no-repeat;
-background-size: contain;
-background-position: right center;
-}
-
-.javascript-desc.desc-active::after {
-background: url(https://i.imgur.com/QjrmHkb.jpg);
-background-repeat: no-repeat;
-background-size: contain;
-background-position: right center;
-}
-
-.gui-desc.desc-active::after {
-background: url(https://i.imgur.com/YmCqPpk.jpg);
-background-repeat: no-repeat;
-background-size: contain;
-background-position: right center;
-}
-
-.seo-desc.desc-active::after {
-background: url(https://i.imgur.com/V9vAVUO.png);
-background-repeat: no-repeat;
-background-size: contain;
-background-position: right center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hex-master-wrap {
 position: relative;
 /* width: 50%; */
@@ -271,7 +191,7 @@ border-left: 3px solid;
 border-right: 3px solid;
 border-radius: 8px;
 z-index: 2;
-border-color: #dfdfdf;
+border-color: #344557;
 -webkit-backface-visibility: hidden;
 backface-visibility: hidden;
 }
@@ -292,20 +212,15 @@ bottom: 10%;
 left: 42px;
 width: 50%;
 height: 83%;
-background-color: rgba(255, 255, 255, 0);
+background-color: #344557;
 border-top: 1px solid;
 border-bottom: 1px solid;
-border-color: white;
+border-color: #344557;
 border-radius: 50%;
 visibility: visible;
 z-index: -1;
 /* transform: rotate(60deg); */
 }
-
-
-
-
-
 
 .intro-block .grid-1,
 .intro-block .grid-2,
@@ -349,7 +264,7 @@ bottom: 0;
 margin: auto;
 width: 100%;
 height: 58px;
-color: #f6f6f6;
+color: #344557;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -409,12 +324,6 @@ backface-visibility: hidden;
 transform: rotate(-60deg);
 overflow: hidden;
 }
-
-
-
-
-
-
 
 .hex-inner-2::before, .hex-inner-2::after {
 position: absolute;
